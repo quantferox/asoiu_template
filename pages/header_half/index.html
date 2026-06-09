@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASOIU - Home Page</title>
+    <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../assets/plugins/animate@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/owlcarousel@2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/fancybox@5.0.36/fancybox.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper@11.1.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/bootstrap@5.3.3/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+</head>
+
+<body>
+    <header class="header header__half" style="background-image: url('../../assets/img/header/1.jpg');">
+        <nav class="header__navbar">
+            <figure class="navbar__logo">
+                <a class="navbar__logo-link" href="#">
+                    <img class="navbar__logo-img" src="../../assets/img/logo.png" alt="Logo">
+                </a>
+            </figure>
+            <div class="navbar__navigation">
+                <div class="navbar__search">
+                    <button class="navbar__search-btn" id="navbar_search_btn">
+                        <i class="ri-search-line"></i>
+                        <span class="navbar__search-btn-name">Axtarış</span>
+                    </button>
+                    <form class="navbar__search-input-container" id="navbar_search_input_container">
+                        <input class="navbar__search-input" type="text" name="navbar_search" placeholder="Axtarış...">
+                        <i class="ri-search-line"></i>
+                        <i class="ri-close-circle-line" id="navbar_search_close_btn"></i>
+                    </form>
+                </div>
+                <div class="navbar__burger">
+                    <button class="navbar__burger-btn" id="navbar_burger_btn">
+                        <i class="ri-menu-fill"></i>
+                        <span class="navbar__burger-btn-name">Menyu</span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar__menu" id="navbar_menu">
+                <div class="menu__heading">
+                    <div class="menu__logo">
+                        <img class="menu__logo-img" src="../../assets/img/logo.png" alt="Logo">
+                    </div>
+                    <button class="menu__close-btn" id="navbar_menu_close_btn">
+                        <span class="menu__close-btn-name">Çıxış</span>
+                        <i class="ri-close-large-line"></i>
+                    </button>
+                </div>
+                <div class="menu__container">
+                    <div class="menu" id="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="adnsu">
+                                    ADNSU
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="structure">
+                                    Struktur
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="academic_activities">
+                                    Akademik Fəaliyyət
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Xidmətlər
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Tələbə
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Tələbə Qəbulu
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Karyera
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="adnsu">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#" data-dropdown-observed="about">
+                                    Haqqımızda
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tariximiz
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Rəsmi sənədlər
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Keyfiyyət təminatı
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İdarə heyəti
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Administrasiya
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Mərkəzlər
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="structure">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tərəfdaş İnstitutlar
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kollec
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="academic_activities">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Geoloji-kəşfiyyat fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Qaz-Neft-mədən fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kimya Texnologiya fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Neft Mexanika fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Energetika fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İT və İdarəetmə fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İqtisadiyyat və Menecment fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    BA proqramları
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    SABAH qrupları
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Əcnəbi Tələbələr Dekanlığı
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    SMİİYİ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="about">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Beynəlxalq əlaqələr şöbəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İctimaiyyətlə Əlaqələr və Marketinq Departamenti
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tədris-metodika şöbəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Mühasibatlıq
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kadrlar şöbəsi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__quick-links">
+                    <div class="quick-links__heading">
+                        <span class="quick-links__title">Quick Links</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="quick-links__links">
+                        <a class="quick-links__link" href="#">Warwick Dual Diploma</a>
+                        <a class="quick-links__link" href="#">UFAZ</a>
+                        <a class="quick-links__link" href="#">News</a>
+                        <a class="quick-links__link" href="#">I have an idea</a>
+                        <a class="quick-links__link" href="#">Contact us</a>
+                    </div>
+                </div>
+                <div class="menu-mobile__container">
+                    <ul class="menu-mobile__list">
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">ADNSU</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Haqqımızda</span>
+                                        <i class="ri-arrow-down-s-line"></i>
+                                    </a>
+                                    <ul class="menu-mobile__dropdown-list">
+                                        <li class="menu-mobile__item">
+                                            <a class="menu-mobile__link" href="#">
+                                                <span class="menu-mobile__link-name">Rəqəmsal İnkişaf və İnnovasiyalar
+                                                    mərkəzi</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-mobile__item">
+                                            <a class="menu-mobile__link" href="#">
+                                                <span class="menu-mobile__link-name">Layihə Menecmenti Ofisi</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Tariximiz</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Rəsmi sənədlər</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Keyfiyyət təminatı</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İdarə heyəti</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Administrasiya</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Mərkəzlər</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Struktur</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Tərəfdaş İnstitutlar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Kollec</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Akademik Fəaliyyət</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Geoloji-kəşfiyyat fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Qaz-Neft-mədən fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Kimya Texnologiya fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Neft Mexanika fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Energetika fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İT və İdarəetmə fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İqtisadiyyat və Menecment fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">BA proqramları</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">SABAH qrupları</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Əcnəbi Tələbələr Dekanlığı</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">SMİİYİ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Xidmətlər</span>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Tələbə</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__heading">
+            <h1 class="header__heading-title wow animate__animated animate__fadeIn">
+                Azərbaycan Dövlət Neft və Sənaye Universiteti
+            </h1>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="section__latest-news-heading">
+                <h1 class="section__latest-news-title wow animate__animated animate__fadeInLeft">
+                    Son xəbərlər
+                </h1>
+            </div>
+            <section class="latest-news__section wow animate__animated animate__fadeInRight">
+                <div class="latest-news__carousel">
+                    <div class="owl-carousel latest-news__owl-carousel" id="latest_news_carousel">
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/1.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-08">08 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/2.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-12">12 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/3.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-18">18 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/1.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-08">08 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/2.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-12">12 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="latest-news__item">
+                            <div class="latest-news__poster">
+                                <img class="latest-news__poster-img" src="../../assets/img/home/3.jpg">
+                            </div>
+                            <div class="latest-news__detail">
+                                <time class="latest-news__detail-date" datetime="2024-03-18">18 Mart, 2024</time>
+                                <a href="#" class="latest-news__detail-title">
+                                    ADNSU-da Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığının Azərbaycandakı
+                                    səfi...
+                                </a>
+                                <p class="latest-news__detail-description">
+                                    Martın 11-də Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) Britaniya və
+                                    Şimali İrlandiya Birləşm...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <div class="section__recent-posts-heading">
+                <h1 class="section__recent-posts-heading-title wow animate__animated animate__slideInLeft">
+                    Son paylaşılan elanlar
+                </h1>
+                <a class="section__recent-posts-heading-link wow animate__animated animate__slideInRight" href="#">
+                    Hamısını gör
+                </a>
+            </div>
+            <section class="recent-post__list">
+                <article class="recent-post__item wow animate__animated animate__zoomIn">
+                    <div class="recent-post__heading">
+                        <a class="recent-post__link" href="#">
+                            ADNSU istehsal müəssisələri ilə əlaqələri genişləndirir
+                        </a>
+                        <time class="recent-post__time" value="2024-01-05">05 Yanvar, 2024</time>
+                    </div>
+                    <div class="recent-post__content">
+                        <p class="recent-post__description">
+                            Azərbaycan Dövlət Neft və Sənaye Universitetində (ADNSU) görüş keçirilib.
+                        </p>
+                    </div>
+                    <div class="recent-post__poster">
+                        <img class="recent-post__poster-img" src="../../assets/img/recent_posts/1.jpg" alt="Recent Post">
+                    </div>
+                </article>
+                <article class="recent-post__item wow animate__animated animate__zoomIn">
+                    <div class="recent-post__heading">
+                        <a class="recent-post__link" href="#">
+                            ADNSU tərəfindən Böyük Məlumatların Emalı Sistemi
+                        </a>
+                        <time class="recent-post__time" value="2024-01-05">05 Yanvar, 2024</time>
+                    </div>
+                    <div class="recent-post__content">
+                        <p class="recent-post__description">
+                            Dekabrın 30-da 31 dekabr - Beynəlxalq Həmrəylik Gününə həsr olunmuş tədbir keçirilib.
+                        </p>
+                    </div>
+                    <div class="recent-post__poster">
+                        <img class="recent-post__poster-img" src="../../assets/img/recent_posts/2.jpg" alt="Recent Post">
+                    </div>
+                </article>
+                <article class="recent-post__item wow animate__animated animate__zoomIn">
+                    <div class="recent-post__heading">
+                        <a class="recent-post__link" href="#">
+                            ADNSU-nun İctimaiyyətə Etibar Şurası
+                        </a>
+                        <time class="recent-post__time" value="2024-01-05">05 Yanvar, 2024</time>
+                    </div>
+                    <div class="recent-post__content">
+                        <p class="recent-post__description">
+                            İdarə Heyətinin sədri Telman Əliyevin rəhbərlik etdiyi 30-dək sahibkardan ibarət nümayəndə
+                            heyətinin toplantısı keçirilib.
+                        </p>
+                    </div>
+                    <div class="recent-post__poster">
+                        <img class="recent-post__poster-img" src="../../assets/img/recent_posts/3.jpg" alt="Recent Post">
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="section">
+            <div class="section__profession-heading">
+                <h1 class="section__profession-heading-title wow animate__animated animate__slideInLeft">İxtisas
+                    sahələrimiz</h1>
+            </div>
+            <section class="profession__list">
+                <article class="profession__item wow animate__animated animate__slideInLeft">
+                    <div class="profession__poster">
+                        <img class="profession__poster-img" src="../../assets/img/profession/1.jpg" alt="Poster">
+                    </div>
+                    <div class="profession__detail">
+                        <h1 class="profession__detail-title">Bakalavr</h1>
+                        <a class="profession__detail-link" href="#">
+                            <i class="ri-arrow-right-circle-line"></i>
+                            <span class="profession__detail-link-name">İxtisaslarımızla tanış ol</span>
+                        </a>
+                    </div>
+                </article>
+                <article class="profession__item wow animate__animated animate__slideInUp">
+                    <div class="profession__poster">
+                        <img class="profession__poster-img" src="../../assets/img/profession/2.jpg" alt="Poster">
+                    </div>
+                    <div class="profession__detail">
+                        <h1 class="profession__detail-title">Magistratura</h1>
+                        <a class="profession__detail-link" href="#">
+                            <i class="ri-arrow-right-circle-line"></i>
+                            <span class="profession__detail-link-name">İxtisaslarımızla tanış ol</span>
+                        </a>
+                    </div>
+                </article>
+                <article class="profession__item wow animate__animated animate__slideInRight">
+                    <div class="profession__poster">
+                        <img class="profession__poster-img" src="../../assets/img/profession/3.jpg" alt="Poster">
+                    </div>
+                    <div class="profession__detail">
+                        <h1 class="profession__detail-title">Doktorantura</h1>
+                        <a class="profession__detail-link" href="#">
+                            <i class="ri-arrow-right-circle-line"></i>
+                            <span class="profession__detail-link-name">İxtisaslarımızla tanış ol</span>
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="section">
+            <section class="faq__list">
+                <article class="faq__item active wow animate__animated animate__slideInLeft">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            Geoloji-kəşfiyyat fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "Geoloji-kəşfiyyat fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInRight">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            Qaz-Neft-Mədən fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "Qaz-Neft-Mədən fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInLeft">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            Kimya Texnologiya fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "Kimya Texnologiya fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInRight">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            Neft Mexanika fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "Neft Mexanika fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInLeft">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            Energetika fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "Energetika fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInRight">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            İT və İdarəetmə fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "İT və İdarəetmə fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+                <article class="faq__item wow animate__animated animate__slideInLeft">
+                    <div class="faq__question">
+                        <span class="faq__question-text">
+                            İqtisadiyyat və Menecment fakültəsi
+                        </span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <span class="faq__answer-text">
+                            Answer for "İqtisadiyyat və Menecment fakültəsi" question
+                        </span>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="section">
+            <div class="section__partners-heading">
+                <h1 class="section__partners-heading-title wow animate__animated animate__slideInLeft">Tərəfdaşlarımız
+                </h1>
+                <div class="section__partners-heading-separator wow animate__animated animate__zoomIn"></div>
+            </div>
+            <section class="partners__section wow animate__animated animate__slideInLeft">
+                <div class="partners__carousel">
+                    <div class="owl-carousel" id="partners_owl_carousel">
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/12.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/7.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/6.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/11.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/8.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/9.png" alt="Partner Logo">
+                        </div>
+                        <div class="partner__carousel-item">
+                            <img class="partner__carousel-item-img" src="../../assets/img/partners/10.png" alt="Partner Logo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <div class="section__projects-heading">
+                <h1 class="section__projects-heading-title wow animate__animated animate__slideInLeft">Layihələr</h1>
+                <div class="section__projects-heading-separator wow animate__animated animate__zoomIn"></div>
+            </div>
+            <section class="projects__section wow animate__animated animate__slideInRight">
+                <div class="projects__carousel">
+                    <div class="owl-carousel" id="projects_owl_carousel">
+                        <div class="project__carousel-item">
+                            <img class="project__carousel-item-img" src="../../assets/img/projects/2.png" alt="Project Logo">
+                        </div>
+                        <div class="project__carousel-item">
+                            <img class="project__carousel-item-img" src="../../assets/img/projects/4.png" alt="Project Logo">
+                        </div>
+                        <div class="project__carousel-item">
+                            <img class="project__carousel-item-img" src="../../assets/img/projects/5.png" alt="Project Logo">
+                        </div>
+                        <div class="project__carousel-item">
+                            <img class="project__carousel-item-img" src="../../assets/img/projects/1.png" alt="Project Logo">
+                        </div>
+                        <div class="project__carousel-item">
+                            <img class="project__carousel-item-img" src="../../assets/img/projects/3.png" alt="Project Logo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="section">
+            <div class="footer__grid-layout">
+                <div class="footer__section">
+                    <div class="footer__section-logo">
+                        <a class="footer__section-logo-link" href="#">
+                            <img class="footer__section-logo-img" src="../../assets/img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="footer__section-about">
+                        <p class="footer__section-about-text">
+                            Sənaye üçün peşəkarlar yetişdirən mühəndis təmayüllü təhsilin lideri
+                        </p>
+                    </div>
+                    <div class="footer__section-icon">
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Haqqimizda</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link active" href="#">Tariximiz</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Fakültələr</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Müəllimlər</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">İnsan resusrları</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Əlaqə</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Sürətli keçidlər</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Warwick Dual Diploma</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">UFAZ</a>
+                            </li>
+                            <li class="footer__nav-item ">
+                                <a class="footer__nav-link active" href="#">Xəbərlər</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Təklifim var</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Contact</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-map-pin-line"></i>
+                                    <span class="footer__nav-link-name">Baku, Azadliq Avenue, 20</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link active" href="#">
+                                    <i class="ri-mail-line"></i>
+                                    <span class="footer__nav-link-name">info@asoiu.edu.az</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-phone-fill"></i>
+                                    <span class="footer__nav-link-name">+994 12 493 45 57</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-community-line"></i>
+                                    <span class="footer__nav-link-name">+994 12 598 29 41</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-mail-send-fill"></i>
+                                    <span class="footer__nav-link-name">Post code: AZ1010</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="section py-0">
+            <div class="footer__separator"></div>
+        </section>
+        <section class="section py-3">
+            <div class="footer__copyright">
+                <div class="footer__partners">
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/1.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/2.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/3.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/4.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/2.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/5.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__copyright-data">
+                    <p class="footer__copyright-text">&copy; 2024. Bütün hüquqlar qorunur</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../../assets/plugins/jquery@3.7.1/jquery.min.js"></script>
+    <script src="../../assets/plugins/jqueryui@1.14.0/jquery-ui.min.js"></script>
+    <script src="../../assets/plugins/wow@1.3.0/wow.min.js"></script>
+    <script src="../../assets/plugins/owlcarousel@2.3.4/owl.carousel.min.js"></script>
+    <script src="../../assets/plugins/fancybox@5.0.36/fancybox.umd.min.js"></script>
+    <script src="../../assets/plugins/swiper@11.1.4/swiper-bundle.min.js"></script>
+    <script src="../../assets/plugins/bootstrap@5.3.3/bootstrap.bundle.min.js"></script>
+    <script defer src="../../assets/js/main.js"></script>
+    <script defer src="../../assets/js/custom.js"></script>
+</body>
+
+</html>

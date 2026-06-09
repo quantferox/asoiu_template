@@ -1,0 +1,16 @@
+/* 
+    Custom CSS Stylesheet (custom.css)
+
+    This file is intended for adding additional custom styles
+    and overriding existing styles from the main.css file.
+    
+    Please follow these guidelines:
+    
+    1. Only add new styles or override existing ones when necessary.
+    2. When overriding styles, use more specific selectors or !important where justified.
+    3. For better readability and maintainability, group rules by component/module.
+    4. Always test changes across all target devices and screen sizes.
+    5. Aim to maintain structure and consistency with the overall project style.
+
+    Thank you for adhering to the standards and paying attention to detail!
+*/

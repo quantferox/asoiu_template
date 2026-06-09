@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASOIU - Library Page</title>
+    <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../assets/plugins/animate@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/owlcarousel@2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/fancybox@5.0.36/fancybox.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper@11.1.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../assets/plugins/bootstrap@5.3.3/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+</head>
+
+<body>
+    <header class="header header__half" style="background-image: url('../../assets/img/header/6.jpg');">
+        <nav class="header__navbar">
+            <figure class="navbar__logo">
+                <a class="navbar__logo-link" href="#">
+                    <img class="navbar__logo-img" src="../../assets/img/logo.png" alt="Logo">
+                </a>
+            </figure>
+            <div class="navbar__navigation">
+                <div class="navbar__search">
+                    <button class="navbar__search-btn" id="navbar_search_btn">
+                        <i class="ri-search-line"></i>
+                        <span class="navbar__search-btn-name">Axtarış</span>
+                    </button>
+                    <form class="navbar__search-input-container" id="navbar_search_input_container">
+                        <input class="navbar__search-input" type="text" name="navbar_search" placeholder="Axtarış...">
+                        <i class="ri-search-line"></i>
+                        <i class="ri-close-circle-line" id="navbar_search_close_btn"></i>
+                    </form>
+                </div>
+                <div class="navbar__burger">
+                    <button class="navbar__burger-btn" id="navbar_burger_btn">
+                        <i class="ri-menu-fill"></i>
+                        <span class="navbar__burger-btn-name">Menyu</span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar__menu" id="navbar_menu">
+                <div class="menu__heading">
+                    <div class="menu__logo">
+                        <img class="menu__logo-img" src="../../assets/img/logo.png" alt="Logo">
+                    </div>
+                    <button class="menu__close-btn" id="navbar_menu_close_btn">
+                        <span class="menu__close-btn-name">Çıxış</span>
+                        <i class="ri-close-large-line"></i>
+                    </button>
+                </div>
+                <div class="menu__container">
+                    <div class="menu" id="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="adnsu">
+                                    ADNSU
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="structure">
+                                    Struktur
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" data-dropdown-observed="academic_activities">
+                                    Akademik Fəaliyyət
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Xidmətlər
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Tələbə
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Tələbə Qəbulu
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">
+                                    Karyera
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="adnsu">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#" data-dropdown-observed="about">
+                                    Haqqımızda
+                                </a>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tariximiz
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Rəsmi sənədlər
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Keyfiyyət təminatı
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İdarə heyəti
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Administrasiya
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Mərkəzlər
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="structure">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tərəfdaş İnstitutlar
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kollec
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="academic_activities">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Geoloji-kəşfiyyat fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Qaz-Neft-mədən fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kimya Texnologiya fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Neft Mexanika fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Energetika fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İT və İdarəetmə fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İqtisadiyyat və Menecment fakültəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    BA proqramları
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    SABAH qrupları
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Əcnəbi Tələbələr Dekanlığı
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    SMİİYİ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu menu__dropdown" id="about">
+                        <ul class="menu__dropdown-list">
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Beynəlxalq əlaqələr şöbəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    İctimaiyyətlə Əlaqələr və Marketinq Departamenti
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Tədris-metodika şöbəsi
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Mühasibatlıq
+                                </a>
+                            </li>
+                            <li class="menu__dropdown-item">
+                                <a class="menu__dropdown-link" href="#">
+                                    Kadrlar şöbəsi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__quick-links">
+                    <div class="quick-links__heading">
+                        <span class="quick-links__title">Quick Links</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="quick-links__links">
+                        <a class="quick-links__link" href="#">Warwick Dual Diploma</a>
+                        <a class="quick-links__link" href="#">UFAZ</a>
+                        <a class="quick-links__link" href="#">News</a>
+                        <a class="quick-links__link" href="#">I have an idea</a>
+                        <a class="quick-links__link" href="#">Contact us</a>
+                    </div>
+                </div>
+                <div class="menu-mobile__container">
+                    <ul class="menu-mobile__list">
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">ADNSU</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Haqqımızda</span>
+                                        <i class="ri-arrow-down-s-line"></i>
+                                    </a>
+                                    <ul class="menu-mobile__dropdown-list">
+                                        <li class="menu-mobile__item">
+                                            <a class="menu-mobile__link" href="#">
+                                                <span class="menu-mobile__link-name">Rəqəmsal İnkişaf və İnnovasiyalar
+                                                    mərkəzi</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-mobile__item">
+                                            <a class="menu-mobile__link" href="#">
+                                                <span class="menu-mobile__link-name">Layihə Menecmenti Ofisi</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Tariximiz</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Rəsmi sənədlər</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Keyfiyyət təminatı</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İdarə heyəti</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Administrasiya</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Mərkəzlər</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Struktur</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Tərəfdaş İnstitutlar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Kollec</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Akademik Fəaliyyət</span>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="menu-mobile__dropdown-list">
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Geoloji-kəşfiyyat fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Qaz-Neft-mədən fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Kimya Texnologiya fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Neft Mexanika fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Energetika fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İT və İdarəetmə fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">İqtisadiyyat və Menecment fakültəsi</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">BA proqramları</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">SABAH qrupları</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">Əcnəbi Tələbələr Dekanlığı</span>
+                                    </a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a class="menu-mobile__link" href="#">
+                                        <span class="menu-mobile__link-name">SMİİYİ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Xidmətlər</span>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" href="#">
+                                <span class="menu-mobile__link-name">Tələbə</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__heading">
+            <h1 class="header__heading-title wow animate__animated animate__fadeIn">
+                Kitabxana
+            </h1>
+            <a class="header__heading-link-btn wow animate__animated animate__bounceInLeft"
+                href="http://lib.asoiu.edu.az:33080/">
+                Kitabxana sisteminə giriş
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="digital__development wow animate__animated animate__slideInDown">
+                <ul class="nav nav-pills digital__development-transition" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="digital__development-transition-links active" id="pills-about-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab"
+                            aria-controls="pills-about" aria-selected="true">Haqqımızda</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="digital__development-transition-links" id="pills-structure-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-structure" type="button" role="tab"
+                            aria-controls="pills-structure" aria-selected="false">Struktur</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="digital__development-transition-links" id="pills-resources-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-resources" type="button" role="tab"
+                            aria-controls="pills-resources" aria-selected="false">e-Beynəlxalq Resurslar</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="digital__development-transition-links" id="pills-partners-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-partners" type="button" role="tab"
+                            aria-controls="pills-partners" aria-selected="false">Tərəfdaşlarımız</button>
+                    </li>
+                </ul>
+            </div>
+            <section class="section__grid">
+                <article class="section__grid-column">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
+                            aria-labelledby="pills-about-tab" tabindex="0">
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading">
+                                    <h1 class="digital__development-heading-title">
+                                        Haqqımızda (Haqqımızda Tab)
+                                    </h1>
+                                </div>
+                                <p class="digital__development-main-title">
+                                    Azİİ e-Kitab Evi oxucu-istifadəçilərinin, eləcə də professor-müəllim heyətinin,
+                                    tələbələrin
+                                    və əməkdaşların təhsil, təlim, tədqiqat proqramlarına dəstək olmaq və onların asudə
+                                    vaxtlarını
+                                    səmərəli keçirməkdə dəstək olan, 24/7 zəngin, çoxsahəli
+                                    çap məhsulları və elektron informasiya resursları kolleksiyasını təklif edən bir
+                                    informasiya
+                                    mərkəzidir. 1920-ci ildə Bakı Politexnik məktəbinin bazası əsasında formalaşıb,
+                                    2018-ci il
+                                    dekabrın 27-dən ADNSU-nun Əsaslı kitabxanasının bazası əsasında Azİİ e Kitab Evi adı
+                                    ilə
+                                    fəaliyyətini davam etdirir.
+                                    <br>
+                                    Azİİ e Kitab Evinin qurulması prosesində dünya təcrübəsindən istifadə olunsada
+                                    burada ADNSU-ya
+                                    məxsus unikal bir kitabxana sistemi yaradılmış və sırf Azİİ brendi olaraq fəaliyyət
+                                    göstərir,
+                                    universitetin elektron şəbəkəsinə qoşulub. Azİİ e Kitab Evinin nəzdində Açıq
+                                    kitabxana fəaliyyət göstərir.
+                                </p>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        e-Beynəlxalq Resurlar (Haqqımızda Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-structure">
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Komplekləşmə və sistemləşmə Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Əməliyyat və Xidmət Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Elektron Resurlar Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        Struktur (Haqqımızda Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-resources">
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/15.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/14.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/13.png" alt="Library">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading-library">
+                                    <h1 class="digital__development-heading-title">
+                                        Tərəfdaşlarımız (Haqqımızda Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-information">
+                                    <ul class="digital__development-library-information-list">
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AzKİK - Azərbaycan Kitabxana İnformasiya Konsorsiumu
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    BDU - Bakı Dövlət Universitetinin Elmi Kitabxanası - Metodiki
+                                                    Mərkəzi
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Dillər Universitetinin və Amerika Birləşmiş Ştatlarının
+                                                    Azərbaycandakı
+                                                    Səfirliyinin
+                                                    Bakı Amerika Mərkəzi - Kitabxanası.
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AMEA-nın akademik Y.H.Məmmədəliyev adına Neft - Kimya Prosesləri
+                                                    İnstİtutunun
+                                                    Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Socar Neftqaz Elmi Tədqiqat Layihə institutunun Elmi - Texniki
+                                                    Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Elmlər Akademiyasının Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Respublikası Əqli Mülkiyyət Agentliyinin Respublika -
+                                                    Elmi Texniki Kitabxanası və s.
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-structure" role="tabpanel"
+                            aria-labelledby="pills-structure-tab" tabindex="0">
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading">
+                                    <h1 class="digital__development-heading-title">
+                                        Haqqımızda (Structure Tab)
+                                    </h1>
+                                </div>
+                                <p class="digital__development-main-title">
+                                    Azİİ e-Kitab Evi oxucu-istifadəçilərinin, eləcə də professor-müəllim heyətinin,
+                                    tələbələrin
+                                    və əməkdaşların təhsil, təlim, tədqiqat proqramlarına dəstək olmaq və onların asudə
+                                    vaxtlarını
+                                    səmərəli keçirməkdə dəstək olan, 24/7 zəngin, çoxsahəli
+                                    çap məhsulları və elektron informasiya resursları kolleksiyasını təklif edən bir
+                                    informasiya
+                                    mərkəzidir. 1920-ci ildə Bakı Politexnik məktəbinin bazası əsasında formalaşıb,
+                                    2018-ci il
+                                    dekabrın 27-dən ADNSU-nun Əsaslı kitabxanasının bazası əsasında Azİİ e Kitab Evi adı
+                                    ilə
+                                    fəaliyyətini davam etdirir.
+                                    <br>
+                                    Azİİ e Kitab Evinin qurulması prosesində dünya təcrübəsindən istifadə olunsada
+                                    burada ADNSU-ya
+                                    məxsus unikal bir kitabxana sistemi yaradılmış və sırf Azİİ brendi olaraq fəaliyyət
+                                    göstərir,
+                                    universitetin elektron şəbəkəsinə qoşulub. Azİİ e Kitab Evinin nəzdində Açıq
+                                    kitabxana fəaliyyət göstərir.
+                                </p>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        e-Beynəlxalq Resurlar (Structure Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-structure">
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Komplekləşmə və sistemləşmə Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Əməliyyat və Xidmət Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Elektron Resurlar Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        Struktur (Structure Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-resources">
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/15.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/14.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/13.png" alt="Library">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading-library">
+                                    <h1 class="digital__development-heading-title">
+                                        Tərəfdaşlarımız (Structure Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-information">
+                                    <ul class="digital__development-library-information-list">
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AzKİK - Azərbaycan Kitabxana İnformasiya Konsorsiumu
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    BDU - Bakı Dövlət Universitetinin Elmi Kitabxanası - Metodiki
+                                                    Mərkəzi
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Dillər Universitetinin və Amerika Birləşmiş Ştatlarının
+                                                    Azərbaycandakı
+                                                    Səfirliyinin
+                                                    Bakı Amerika Mərkəzi - Kitabxanası.
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AMEA-nın akademik Y.H.Məmmədəliyev adına Neft - Kimya Prosesləri
+                                                    İnstİtutunun
+                                                    Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Socar Neftqaz Elmi Tədqiqat Layihə institutunun Elmi - Texniki
+                                                    Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Elmlər Akademiyasının Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Respublikası Əqli Mülkiyyət Agentliyinin Respublika -
+                                                    Elmi Texniki Kitabxanası və s.
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-resources" role="tabpanel"
+                            aria-labelledby="pills-resources-tab" tabindex="0">
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading">
+                                    <h1 class="digital__development-heading-title">
+                                        Haqqımızda (Resources Tab)
+                                    </h1>
+                                </div>
+                                <p class="digital__development-main-title">
+                                    Azİİ e-Kitab Evi oxucu-istifadəçilərinin, eləcə də professor-müəllim heyətinin,
+                                    tələbələrin
+                                    və əməkdaşların təhsil, təlim, tədqiqat proqramlarına dəstək olmaq və onların asudə
+                                    vaxtlarını
+                                    səmərəli keçirməkdə dəstək olan, 24/7 zəngin, çoxsahəli
+                                    çap məhsulları və elektron informasiya resursları kolleksiyasını təklif edən bir
+                                    informasiya
+                                    mərkəzidir. 1920-ci ildə Bakı Politexnik məktəbinin bazası əsasında formalaşıb,
+                                    2018-ci il
+                                    dekabrın 27-dən ADNSU-nun Əsaslı kitabxanasının bazası əsasında Azİİ e Kitab Evi adı
+                                    ilə
+                                    fəaliyyətini davam etdirir.
+                                    <br>
+                                    Azİİ e Kitab Evinin qurulması prosesində dünya təcrübəsindən istifadə olunsada
+                                    burada ADNSU-ya
+                                    məxsus unikal bir kitabxana sistemi yaradılmış və sırf Azİİ brendi olaraq fəaliyyət
+                                    göstərir,
+                                    universitetin elektron şəbəkəsinə qoşulub. Azİİ e Kitab Evinin nəzdində Açıq
+                                    kitabxana fəaliyyət göstərir.
+                                </p>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        e-Beynəlxalq Resurlar (Resources Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-structure">
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Komplekləşmə və sistemləşmə Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Əməliyyat və Xidmət Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Elektron Resurlar Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        Struktur (Resources Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-resources">
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/15.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/14.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/13.png" alt="Library">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading-library">
+                                    <h1 class="digital__development-heading-title">
+                                        Tərəfdaşlarımız (Resources Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-information">
+                                    <ul class="digital__development-library-information-list">
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AzKİK - Azərbaycan Kitabxana İnformasiya Konsorsiumu
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    BDU - Bakı Dövlət Universitetinin Elmi Kitabxanası - Metodiki
+                                                    Mərkəzi
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Dillər Universitetinin və Amerika Birləşmiş Ştatlarının
+                                                    Azərbaycandakı
+                                                    Səfirliyinin
+                                                    Bakı Amerika Mərkəzi - Kitabxanası.
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AMEA-nın akademik Y.H.Məmmədəliyev adına Neft - Kimya Prosesləri
+                                                    İnstİtutunun
+                                                    Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Socar Neftqaz Elmi Tədqiqat Layihə institutunun Elmi - Texniki
+                                                    Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Elmlər Akademiyasının Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Respublikası Əqli Mülkiyyət Agentliyinin Respublika -
+                                                    Elmi Texniki Kitabxanası və s.
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-partners" role="tabpanel"
+                            aria-labelledby="pills-partners-tab" tabindex="0">
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading">
+                                    <h1 class="digital__development-heading-title">
+                                        Haqqımızda (Partners Tab)
+                                    </h1>
+                                </div>
+                                <p class="digital__development-main-title">
+                                    Azİİ e-Kitab Evi oxucu-istifadəçilərinin, eləcə də professor-müəllim heyətinin,
+                                    tələbələrin
+                                    və əməkdaşların təhsil, təlim, tədqiqat proqramlarına dəstək olmaq və onların asudə
+                                    vaxtlarını
+                                    səmərəli keçirməkdə dəstək olan, 24/7 zəngin, çoxsahəli
+                                    çap məhsulları və elektron informasiya resursları kolleksiyasını təklif edən bir
+                                    informasiya
+                                    mərkəzidir. 1920-ci ildə Bakı Politexnik məktəbinin bazası əsasında formalaşıb,
+                                    2018-ci il
+                                    dekabrın 27-dən ADNSU-nun Əsaslı kitabxanasının bazası əsasında Azİİ e Kitab Evi adı
+                                    ilə
+                                    fəaliyyətini davam etdirir.
+                                    <br>
+                                    Azİİ e Kitab Evinin qurulması prosesində dünya təcrübəsindən istifadə olunsada
+                                    burada ADNSU-ya
+                                    məxsus unikal bir kitabxana sistemi yaradılmış və sırf Azİİ brendi olaraq fəaliyyət
+                                    göstərir,
+                                    universitetin elektron şəbəkəsinə qoşulub. Azİİ e Kitab Evinin nəzdində Açıq
+                                    kitabxana fəaliyyət göstərir.
+                                </p>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        e-Beynəlxalq Resurlar (Partners Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-structure">
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Komplekləşmə və sistemləşmə Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Əməliyyat və Xidmət Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                    <div class="digital__development-stucture-items">
+                                        <div class="digital__development-stucture-icon">
+                                            <img class="digital__development-stucture-icon-img"
+                                                src="../../assets/icons/png/2.png" alt="Icon">
+                                        </div>
+                                        <h1 class="digital__development-stucture-title">
+                                            Elektron Resurlar Bölməsi
+                                        </h1>
+                                        <p class="digital__development-stucture-description">
+                                            Rəqəmsallaşma və İnnovativ xidmətlərin çevik həyata keçirilməsi ilə biznes
+                                            mühitinə
+                                            transformasiya.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-structure-heading">
+                                    <h1 class="digital__development-structure-title">
+                                        Struktur (Partners Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-resources">
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/15.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/14.png" alt="Library">
+                                        </a>
+                                    </div>
+                                    <div class="digital__development-library-resources-items">
+                                        <a href="#">
+                                            <img class="digital__development-library-resources-items-img"
+                                                src="../../assets/img/partners/13.png" alt="Library">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="digital__development-article">
+                                <div class="digital__development-heading-library">
+                                    <h1 class="digital__development-heading-title">
+                                        Tərəfdaşlarımız (Partners Tab)
+                                    </h1>
+                                </div>
+                                <div class="digital__development-library-information">
+                                    <ul class="digital__development-library-information-list">
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AzKİK - Azərbaycan Kitabxana İnformasiya Konsorsiumu
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    BDU - Bakı Dövlət Universitetinin Elmi Kitabxanası - Metodiki
+                                                    Mərkəzi
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Dillər Universitetinin və Amerika Birləşmiş Ştatlarının
+                                                    Azərbaycandakı
+                                                    Səfirliyinin
+                                                    Bakı Amerika Mərkəzi - Kitabxanası.
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    AMEA-nın akademik Y.H.Məmmədəliyev adına Neft - Kimya Prosesləri
+                                                    İnstİtutunun
+                                                    Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Socar Neftqaz Elmi Tədqiqat Layihə institutunun Elmi - Texniki
+                                                    Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Milli Elmlər Akademiyasının Elmi Kitabxanası
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="digital__development-library-information-item">
+                                            <a class="digital__development-library-information-item-link" href="#">
+                                                <span class="digital__development-library-information-item-title">
+                                                    Azərbaycan Respublikası Əqli Mülkiyyət Agentliyinin Respublika -
+                                                    Elmi Texniki Kitabxanası və s.
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="section__grid-column">
+                    <div class="digital__development-widgets wow animate__animated animate__slideInRight">
+                        <article class="digital__development-widget-item">
+                            <h1 class="digital__development-widget-title">Direktor</h1>
+                            <h1 class="digital__development-widget-person">
+                                Səlahət Mahmudova
+                            </h1>
+                            <a class="digital__development-widget-link-relation" href="#">
+                                <i class="ri-mail-fill"></i>
+                                <p class="digital__development-widget-link-info-relation">
+                                    selahet.mahmudova@asoiu.edu.az
+                                </p>
+                            </a>
+                            <a class="digital__development-widget-link-relation" href="#">
+                                <i class="ri-mail-fill"></i>
+                                <p class="digital__development-widget-link-info-relation">
+                                    library@asoiu.edu.az
+                                </p>
+                            </a>
+                            <a class="digital__development-widget-link-relation" href="#">
+                                <i class="ri-phone-fill"></i>
+                                <p class="digital__development-widget-link-info-relation">
+                                    +(994 12) 498 75 64
+                                </p>
+                            </a>
+                        </article>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="section">
+            <div class="footer__grid-layout">
+                <div class="footer__section">
+                    <div class="footer__section-logo">
+                        <a class="footer__section-logo-link" href="#">
+                            <img class="footer__section-logo-img" src="../../assets/img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="footer__section-about">
+                        <p class="footer__section-about-text">
+                            Sənaye üçün peşəkarlar yetişdirən mühəndis təmayüllü təhsilin lideri
+                        </p>
+                    </div>
+                    <div class="footer__section-icon">
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a class="footer__section-icon-link" href="#">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Haqqimizda</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link active" href="#">Tariximiz</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Fakültələr</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Müəllimlər</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">İnsan resusrları</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Əlaqə</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Sürətli keçidlər</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Warwick Dual Diploma</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">UFAZ</a>
+                            </li>
+                            <li class="footer__nav-item ">
+                                <a class="footer__nav-link active" href="#">Xəbərlər</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">Təklifim var</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-section">
+                            <h1 class="footer__nav-section-title">Contact</h1>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-map-pin-line"></i>
+                                    <span class="footer__nav-link-name">Baku, Azadliq Avenue, 20</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link active" href="#">
+                                    <i class="ri-mail-line"></i>
+                                    <span class="footer__nav-link-name">info@asoiu.edu.az</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-phone-fill"></i>
+                                    <span class="footer__nav-link-name">+994 12 493 45 57</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-community-line"></i>
+                                    <span class="footer__nav-link-name">+994 12 598 29 41</span>
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#">
+                                    <i class="ri-mail-send-fill"></i>
+                                    <span class="footer__nav-link-name">Post code: AZ1010</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="section py-0">
+            <div class="footer__separator"></div>
+        </section>
+        <section class="section py-3">
+            <div class="footer__copyright">
+                <div class="footer__partners">
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/1.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/2.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/3.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/4.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/2.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                    <div class="partner__logo">
+                        <a class="partner__link" href="#">
+                            <img class="partner__logo-img" src="../../assets/img/partners/5.png" alt="Partner Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__copyright-data">
+                    <p class="footer__copyright-text">&copy; 2024. Bütün hüquqlar qorunur</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../../assets/plugins/jquery@3.7.1/jquery.min.js"></script>
+    <script src="../../assets/plugins/jqueryui@1.14.0/jquery-ui.min.js"></script>
+    <script src="../../assets/plugins/wow@1.3.0/wow.min.js"></script>
+    <script src="../../assets/plugins/owlcarousel@2.3.4/owl.carousel.min.js"></script>
+    <script src="../../assets/plugins/fancybox@5.0.36/fancybox.umd.min.js"></script>
+    <script src="../../assets/plugins/swiper@11.1.4/swiper-bundle.min.js"></script>
+    <script src="../../assets/plugins/bootstrap@5.3.3/bootstrap.bundle.min.js"></script>
+    <script defer src="../../assets/js/main.js"></script>
+    <script defer src="../../assets/js/custom.js"></script>
+</body>
+
+</html>
