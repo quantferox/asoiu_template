@@ -1,4 +1,4 @@
-## 🌟 ASOIU - Azerbaijan State Oil and Industry University (Front-End)
+1## 🌟 ASOIU - Azerbaijan State Oil and Industry University (Front-End)
 
 Azerbaijan State Oil and Industry University (ASOIU) offers top-tier engineering education across
 bachelor's, master's, and doctoral programs. With modern facilities, international collaborations, and strong
